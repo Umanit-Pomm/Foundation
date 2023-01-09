@@ -1,9 +1,8 @@
 {
-    "name": "pomm-project/foundation",
+    "name": "umanit-pomm/foundation",
     "type": "library",
     "description":  "Pomm connection manager for Postgresql",
     "keywords": ["framework", "postgresql", "database", "pomm"],
-    "homepage": "http://www.pomm-project.org",
     "license":  "MIT",
     "authors":  [ { "name": "Grégoire HUBERT", "email": "hubert.greg@gmail.com", "homepage": "http://www.coolkeums.org" } ],
     "require": {
@@ -25,10 +24,5 @@
             "PommProject\\Foundation\\Test\\": "sources/tests"
         }
     },
-    "minimum-stability": "stable",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.1-dev"
-        }
-    }
+    "minimum-stability": "stable"
 }
