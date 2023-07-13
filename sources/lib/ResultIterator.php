@@ -291,6 +291,7 @@ class ResultIterator implements ResultIteratorInterface, \JsonSerializable
     /**
      * jsonSerialize
      *
+     * @return mixed
      * @see \JsonSerializable
      */
     #[\ReturnTypeWillChange]
